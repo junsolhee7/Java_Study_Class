@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Object2Main2 {
 
 	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner(System.in);
 		AnimalSound as = new AnimalSound();
 		
