@@ -3,10 +3,16 @@ package com.iu.object1.ex1;
 import java.util.Scanner;
 
 public class StudentController {
+	Scanner sc = new Scanner(System.in);
+	public StudentController() {
+		
+//		sc = new SCanner(System.in);
+//		sv = new StudentView;
+	}
 
 	//start 메서드를 선언
 		public void start() {
-			Scanner sc = new Scanner(System.in);
+			
 			//객체 생성
 			StudentView sv = new StudentView();
 			StudentService studentService = new StudentService();

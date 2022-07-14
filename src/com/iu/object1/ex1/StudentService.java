@@ -3,6 +3,21 @@ package com.iu.object1.ex1;
 import java.util.Scanner;
 
 public class StudentService {
+	
+	
+		public StudentService() {
+			Scanner sc = new Scanner(System.in);
+		}
+		//addStudent
+		//학생들의 정보를 받아서
+		//학생 한명 추가
+		//학생정보들을 리턴
+		
+		
+		//findStudent
+		//검색하고싶은 학생의 번호를 입력받아서
+		//같은 번호의 학생을 찾아서 그 학생 한명을 리턴
+		//없으면 null을 리턴
 		
 		public Student findStudent(Student [] students) {
 			Scanner sc = new Scanner(System.in);

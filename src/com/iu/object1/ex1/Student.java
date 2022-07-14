@@ -9,5 +9,13 @@ public class Student {
 	int math;
 	int total;
 	double avg;
+	
+	public void setTotal() {//지역변수
+		this.total = this.kor + this.eng + this.math;//멤버변수(this는 생략, 객체생성시 생성되는 변수가 this)
+		this.setAvg();
+	}
+	public void setAvg() {
+		this.avg = this.total/3.0;
+	}
 
 }
