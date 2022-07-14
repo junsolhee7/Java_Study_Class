@@ -8,6 +8,13 @@ public class StudentService {
 		public StudentService() {
 			Scanner sc = new Scanner(System.in);
 		}
+		
+		//removeStudent
+		//학생들의 정보를 받아서
+		//삭제하려는 학생의 번호를 입력 받음
+		//학생의 번호와 일치하는 학생을 삭제
+		//남은학생 정보들을 리턴
+		
 		//addStudent
 		//학생들의 정보를 받아서
 		//학생 한명 추가

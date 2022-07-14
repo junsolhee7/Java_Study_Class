@@ -45,7 +45,7 @@ public class StudentController {
 					}
 					break;
 				case 4 :
-					System.out.println("4");
+					System.out.println("4");//studentService.removeStudent
 					break;
 				case 5 :
 					System.out.println("5");
